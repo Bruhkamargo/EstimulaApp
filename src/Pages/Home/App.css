@@ -1,0 +1,124 @@
+.BodyDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+}
+
+.CtrlPainel {
+  display: flex;
+  height: 6%;
+  background-color: #baeeff;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.SpanButtons {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 250px;
+  justify-content: space-evenly;
+}
+.SpanButtons button {
+  background: none;
+  border: none;
+}
+
+.SpanButtons img {
+  height: 28px;
+}
+
+.SpanButtons img:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+}
+
+.CronGeral {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.NumberDiv {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.ButtonNumbers {
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid steelblue;
+}
+
+.Cronometro {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  background-color: #baeeff;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Cronometro button {
+  width: 80px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 3px 4px 5px #497e8f;
+}
+
+.Cronometro button:first-child:active {  
+  background-color: red;
+  box-shadow: none;
+}
+.Cronometro button:last-child:active {  
+  background-color: green;
+  box-shadow: none;
+}
+
+footer {
+
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 15%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.social a i {
+  color: white;
+  font-size: 25px;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Health {
+  color: rgb(39 150 115);
+}
+
+.Tec {
+  color: rgb(0 74 173);
+}

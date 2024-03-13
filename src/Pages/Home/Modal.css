@@ -1,0 +1,84 @@
+.BackModal {
+    display: flex;
+    position: absolute;
+    inset: 0 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Modal {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 70%;
+    background-color: #baeeff;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px slategray;
+}
+
+.ModalHead {
+    display: flex;
+    background-color: steelblue;
+    height: 15%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.ModalBody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25px;
+    align-items: center;
+}
+
+.SpanBody {
+    width: 60%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SpanBody label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.SelectModal {
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    width: 150px;
+    height: 26px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.ModalFoot {
+    background-color: steelblue;
+    height: 15%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+}
+
+.ModalFoot button {
+    border: none;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px #497e8f;
+}
+.ModalFoot button:active {
+    box-shadow: none;
+}
